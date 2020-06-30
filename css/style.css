@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #626262;
+}
+
+/* Header Starts */
+header {
+  padding: 30px 0px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo {
+  width: 15%;
+  float: left;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  width: 70%;
+  float: right;
+}
+
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  margin: 0 50px;
+  padding: 5px 0px;
+  display: inline-block;
+  color: #626262;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+/* Header Ends */
+
+/* Banner Starts */
+.banner_section img {
+  width: 100%;
+}
+/* Banner Ends */
+
+/* News Section Starts */
+.news_sec {
+  padding: 70px 0px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.news_sec h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.news_sec .input_box {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.news_sec .input_box input {
+  width: 100%;
+  padding: 10px 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #626262 !important;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #777;
+  display: inline-block;
+}
+
+.news_sec .input_box .send {
+  position: absolute;
+  right: -10px;
+  top: 15px;
+  cursor: pointer;
+}
+/* News Section Ends */
